@@ -16,6 +16,7 @@ function PasswordGenerator(){
 
    const generatepassword = useCallback(()=>{
 
+
       let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
       if(numberChanged)
          str+="0123456789"
@@ -32,8 +33,6 @@ function PasswordGenerator(){
 
    },[length,charChanged,numberChanged]);
    
-
-
 
   useEffect(()=>{
      generatepassword();
