@@ -19862,9 +19862,7 @@ function Body() {
 }
 _s(Body, "vfQ6eN76ePv5tdy7TTks7Y7c5OE=");
 _c = Body;
-exports.default = Body; // Try catch functionality add karo
- // UseCallBack function add karne ki koshish
- // Search button: Name ke basis: User profile exist, display kara dena
+exports.default = Body;
 var _c;
 $RefreshReg$(_c, "Body");
 

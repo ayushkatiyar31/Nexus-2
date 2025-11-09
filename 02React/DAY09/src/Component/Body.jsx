@@ -40,8 +40,3 @@ function Body(){
 }
 
 export default Body;
-
-
-// Try catch functionality add karo
-// UseCallBack function add karne ki koshish
-// Search button: Name ke basis: User profile exist, display kara dena
