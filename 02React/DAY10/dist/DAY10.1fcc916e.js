@@ -758,7 +758,7 @@ function App() {
                 ]
             }, void 0, true, {
                 fileName: "src/main.js",
-                lineNumber: 38,
+                lineNumber: 35,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -766,7 +766,7 @@ function App() {
                 children: "Increment"
             }, void 0, false, {
                 fileName: "src/main.js",
-                lineNumber: 39,
+                lineNumber: 36,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -774,7 +774,7 @@ function App() {
                 children: "Decrement"
             }, void 0, false, {
                 fileName: "src/main.js",
-                lineNumber: 40,
+                lineNumber: 37,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -786,7 +786,7 @@ function App() {
                         ]
                     }, void 0, true, {
                         fileName: "src/main.js",
-                        lineNumber: 43,
+                        lineNumber: 40,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -795,13 +795,13 @@ function App() {
                         onChange: (e)=>setNumber(e.target.value)
                     }, void 0, false, {
                         fileName: "src/main.js",
-                        lineNumber: 44,
+                        lineNumber: 41,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/main.js",
-                lineNumber: 42,
+                lineNumber: 39,
                 columnNumber: 6
             }, this)
         ]
@@ -811,7 +811,7 @@ _s(App, "Vo4Fw3U2ObqjgohiBMyvoycZ1Fw=");
 _c = App;
 (0, _clientDefault.default).createRoot(document.getElementById('root')).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/main.js",
-    lineNumber: 50,
+    lineNumber: 47,
     columnNumber: 61
 }, undefined));
 var _c;
