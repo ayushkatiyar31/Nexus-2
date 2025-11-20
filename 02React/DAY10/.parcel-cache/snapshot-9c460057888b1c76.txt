@@ -1,4 +1,29 @@
-3611
+3617
+37G:\Nexus-2\02React\DAY10\package.json134080545743919413 0
+73G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\test\fixtures\main-mjs134080543882345634 1
+87G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\css-relative-colors.js134080543883786812 0
+72G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\lib\PackagerRunner.js134080543878262543 0
+72G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\test\fixtures\plugins134080543877754608 1
+58G:\Nexus-2\02React\DAY10\node_modules\@parcel\packager-raw134080543867782329 1
+55G:\Nexus-2\02React\DAY10\node_modules\@msgpackr-extract134080543913847040 1
+42G:\Nexus-2\02React\DAY10\package-lock.json134080544655551855 0
+89G:\Nexus-2\02React\DAY10\node_modules\scheduler\cjs\scheduler-unstable_mock.production.js134080544480903922 0
+55G:\Nexus-2\02React\DAY10\node_modules\lmdb\dependencies134080543880315573 1
+62G:\Nexus-2\02React\DAY10\node_modules\react\jsx-dev-runtime.js134080544331703863 0
+76G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\cjs\_set_prototype_of.cjs134080543875951213 0
+47G:\Nexus-2\02React\DAY10\node_modules\@mischnic134080543860098366 1
+61G:\Nexus-2\02React\DAY10\node_modules\semver\functions\inc.js134080543871041970 0
+69G:\Nexus-2\02React\DAY10\node_modules\lightningcss\node\index.js.flow134080543868679497 0
+58G:\Nexus-2\02React\DAY10\node_modules\type-fest\index.d.ts134080543870916497 0
+69G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\regions\SZ.js134080543891858737 0
+80G:\Nexus-2\02React\DAY10\node_modules\utility-types\dist\aliases-and-guards.d.ts134080543870876233 0
+69G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\regions\JE.js134080543887968990 0
+84G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\addeventlistener.js134080543869758789 0
+61G:\Nexus-2\02React\DAY10\node_modules\browserslist\index.d.ts134080543869625117 0
+68G:\Nexus-2\02React\DAY10\node_modules\lmdb\bin\download-prebuilds.js134080543880600230 0
+57G:\Nexus-2\02React\DAY10\node_modules\dotenv\package.json134080543868744638 0
+29G:\Nexus-2\02React\DAY10\dist134080561283208298 1
+71G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_iterable_to_array134080543883341019 1
 65G:\Nexus-2\02React\DAY10\node_modules\lightningcss\node\index.mjs134080543870493875 0
 65G:\Nexus-2\02React\DAY10\node_modules\@parcel\workers\src\process134080543873646544 1
 62G:\Nexus-2\02React\DAY10\node_modules\react-dom\server.edge.js134080544482253150 0
@@ -46,15 +71,6 @@
 87G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_class_name_tdz_error\package.json134080543882086868 0
 63G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\src\utils.js134080543880945806 0
 60G:\Nexus-2\02React\DAY10\node_modules\term-size\package.json134080543869443946 0
-37G:\Nexus-2\02React\DAY10\package.json134080544654932175 0
-73G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\test\fixtures\main-mjs134080543882345634 1
-87G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\css-relative-colors.js134080543883786812 0
-72G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\lib\PackagerRunner.js134080543878262543 0
-72G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\test\fixtures\plugins134080543877754608 1
-58G:\Nexus-2\02React\DAY10\node_modules\@parcel\packager-raw134080543867782329 1
-55G:\Nexus-2\02React\DAY10\node_modules\@msgpackr-extract134080543913847040 1
-42G:\Nexus-2\02React\DAY10\package-lock.json134080544655551855 0
-89G:\Nexus-2\02React\DAY10\node_modules\scheduler\cjs\scheduler-unstable_mock.production.js134080544480903922 0
 61G:\Nexus-2\02React\DAY10\node_modules\node-releases\README.md134080543868532798 0
 53G:\Nexus-2\02React\DAY10\node_modules\clone\clone.iml134080543868423214 0
 79G:\Nexus-2\02React\DAY10\node_modules\lightningcss\node_modules\detect-libc\lib134080543868552761 1
@@ -63,7 +79,7 @@
 72G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\src\InternalConfig.js134080543877329926 0
 46G:\Nexus-2\02React\DAY10\node_modules\msgpackr134080543874609390 1
 63G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\esm\index.js134080543881324871 0
-36G:\Nexus-2\02React\DAY10\src\main.js134080541913089853 0
+36G:\Nexus-2\02React\DAY10\src\main.js134080561281357702 0
 83G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\cjs\_assert_this_initialized.cjs134080543869342516 0
 66G:\Nexus-2\02React\DAY10\node_modules\ordered-binary\tests\test.js134080543868522788 0
 38G:\Nexus-2\02React\DAY10\src\second.js134080536138378107 0
@@ -81,11 +97,6 @@
 77G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\lib\dumpGraphToGraphViz.js134080543875736250 0
 56G:\Nexus-2\02React\DAY10\node_modules\.package-lock.json134080544655905172 0
 57G:\Nexus-2\02React\DAY10\node_modules\react-dom\server.js134080544482263173 0
-68G:\Nexus-2\02React\DAY10\node_modules\type-fest\ts41\snake-case.d.ts134080543873530618 0
-84G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\css-env-function.js134080543881454833 0
-93G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_ts_add_disposable_resource\package.json134080543884009189 0
-64G:\Nexus-2\02React\DAY10\node_modules\@parcel\watcher\src\kqueue134080543873550622 1
-47G:\Nexus-2\02React\DAY10\node_modules\scheduler134080544481076669 1
 81G:\Nexus-2\02React\DAY10\node_modules\@parcel\watcher\src\linux\InotifyBackend.hh134080543873367172 0
 88G:\Nexus-2\02React\DAY10\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.c134080543874439743 0
 51G:\Nexus-2\02React\DAY10\node_modules\react-refresh134080543869530327 1
@@ -97,11 +108,6 @@
 54G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\esm134080543881304847 1
 67G:\Nexus-2\02React\DAY10\node_modules\@parcel\profiler\src\index.js134080543867881201 0
 78G:\Nexus-2\02React\DAY10\node_modules\type-fest\source\conditional-except.d.ts134080543869550340 0
-55G:\Nexus-2\02React\DAY10\node_modules\lmdb\dependencies134080543880315573 1
-62G:\Nexus-2\02React\DAY10\node_modules\react\jsx-dev-runtime.js134080544331703863 0
-76G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\cjs\_set_prototype_of.cjs134080543875951213 0
-47G:\Nexus-2\02React\DAY10\node_modules\@mischnic134080543860098366 1
-61G:\Nexus-2\02React\DAY10\node_modules\semver\functions\inc.js134080543871041970 0
 69G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\regions\GY.js134080543887010011 0
 81G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_inherits_loose\package.json134080543883005752 0
 52G:\Nexus-2\02React\DAY10\node_modules\ordered-binary134080543870206280 1
@@ -276,6 +282,7 @@
 73G:\Nexus-2\02React\DAY10\node_modules\lmdb\dependencies\lz4\lib\lz4file.c134080543874830072 0
 88G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\input-file-directory.js134080543887668922 0
 98G:\Nexus-2\02React\DAY10\node_modules\msgpackr-extract\node_modules\detect-libc\lib\detect-libc.js134080543867079174 0
+52G:\Nexus-2\02React\DAY10\dist\DAY10.2cdaf7bc.css.map134080545750299205 0
 48G:\Nexus-2\02React\DAY10\node_modules\nullthrows134080543868315369 1
 69G:\Nexus-2\02React\DAY10\node_modules\update-browserslist-db\utils.js134080543868144528 0
 84G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\src\_class_private_method_get.mjs134080543884624444 0
@@ -296,7 +303,13 @@
 66G:\Nexus-2\02React\DAY10\node_modules\@parcel\transformer-html\src134080543867336208 1
 76G:\Nexus-2\02React\DAY10\node_modules\react-dom\cjs\react-dom.development.js134080544482158079 0
 77G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\proximity.js134080543890599791 0
+68G:\Nexus-2\02React\DAY10\node_modules\type-fest\ts41\snake-case.d.ts134080543873530618 0
+84G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\css-env-function.js134080543881454833 0
+93G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_ts_add_disposable_resource\package.json134080543884009189 0
+64G:\Nexus-2\02React\DAY10\node_modules\@parcel\watcher\src\kqueue134080543873550622 1
+47G:\Nexus-2\02React\DAY10\node_modules\scheduler134080544481076669 1
 63G:\Nexus-2\02React\DAY10\node_modules\chalk\source\templates.js134080543867638622 0
+51G:\Nexus-2\02React\DAY10\dist\DAY10.1fcc916e.js.map134080561283198225 0
 44G:\Nexus-2\02React\DAY10\node_modules\semver134080543874535218 1
 71G:\Nexus-2\02React\DAY10\node_modules\@parcel\core\src\public\Bundle.js134080543873744208 0
 69G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\regions\MP.js134080543889283632 0
@@ -389,13 +402,6 @@
 62G:\Nexus-2\02React\DAY10\node_modules\utility-types\SUPPORT.md134080543870745328 0
 70G:\Nexus-2\02React\DAY10\node_modules\ordered-binary\.idea\modules.xml134080543870373767 0
 78G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\es6-module.js134080543886019976 0
-69G:\Nexus-2\02React\DAY10\node_modules\lightningcss\node\index.js.flow134080543868679497 0
-58G:\Nexus-2\02React\DAY10\node_modules\type-fest\index.d.ts134080543870916497 0
-69G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\regions\SZ.js134080543891858737 0
-80G:\Nexus-2\02React\DAY10\node_modules\utility-types\dist\aliases-and-guards.d.ts134080543870876233 0
-69G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\regions\JE.js134080543887968990 0
-84G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\addeventlistener.js134080543869758789 0
-61G:\Nexus-2\02React\DAY10\node_modules\browserslist\index.d.ts134080543869625117 0
 69G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\regions\CV.js134080543884599392 0
 85G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\css-rebeccapurple.js134080543883686803 0
 62G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\esm\_jsx.js134080543880086372 0
@@ -1328,6 +1334,7 @@
 46G:\Nexus-2\02React\DAY10\node_modules\lmdb\bin134080543880590132 1
 54G:\Nexus-2\02React\DAY10\node_modules\lmdb\binding.gyp134080543879559930 0
 84G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\css-font-palette.js134080543881879155 0
+40G:\Nexus-2\02React\DAY10\dist\index.html134080545750244167 0
 53G:\Nexus-2\02React\DAY10\node_modules\lmdb\caching.js134080543880560155 0
 95G:\Nexus-2\02React\DAY10\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c134080543878222413 0
 54G:\Nexus-2\02React\DAY10\node_modules\lmdb\index.d.cts134080543879309895 0
@@ -1565,8 +1572,6 @@
 84G:\Nexus-2\02React\DAY10\node_modules\caniuse-lite\data\features\css-text-spacing.js134080543884161881 0
 93G:\Nexus-2\02React\DAY10\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-mdb.txt134080543881660925 0
 86G:\Nexus-2\02React\DAY10\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\tooltag134080543872707744 0
-68G:\Nexus-2\02React\DAY10\node_modules\lmdb\bin\download-prebuilds.js134080543880600230 0
-57G:\Nexus-2\02React\DAY10\node_modules\dotenv\package.json134080543868744638 0
 57G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_jsx134080543883371018 1
 73G:\Nexus-2\02React\DAY10\node_modules\lightningcss-win32-x64-msvc\LICENSE134080543866430795 0
 65G:\Nexus-2\02React\DAY10\node_modules\@swc\types\assumptions.d.ts134080543868353232 0
@@ -2582,7 +2587,6 @@
 72G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_is_native_function134080543883200496 1
 83G:\Nexus-2\02React\DAY10\node_modules\@parcel\package-manager\test\fixtures\has-foo134080543873656643 1
 81G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_is_native_reflect_construct134080543883230513 1
-71G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_iterable_to_array134080543883341019 1
 77G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_iterable_to_array_limit134080543883301003 1
 71G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_non_iterable_rest134080543883455656 1
 88G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\esm\_iterable_to_array_limit_loose.js134080543879986048 0
@@ -2609,8 +2613,8 @@
 63G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_using_ctx134080543884161881 1
 72G:\Nexus-2\02React\DAY10\node_modules\@parcel\optimizer-svg\package.json134080543867904712 0
 74G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_wrap_async_generator134080543884191894 1
-87G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_wrap_async_generator\package.json134080543884191894 0
 93G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs134080543884684437 0
+87G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_wrap_async_generator\package.json134080543884191894 0
 76G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_using_ctx\package.json134080543884171883 0
 72G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_using\package.json134080543884182020 0
 74G:\Nexus-2\02React\DAY10\node_modules\@swc\helpers\_\_type_of\package.json134080543884132199 0
@@ -3210,6 +3214,7 @@
 106G:\Nexus-2\02React\DAY10\node_modules\@parcel\rust-win32-x64-msvc\parcel-node-bindings.win32-x64-msvc.node134080543884614340 0
 70G:\Nexus-2\02React\DAY10\node_modules\@parcel\events\lib\Disposable.js134080543867012196 0
 54G:\Nexus-2\02React\DAY10\node_modules\@parcel\rust\lib134080543869057762 1
+48G:\Nexus-2\02React\DAY10\dist\DAY10.2cdaf7bc.css134080545750214087 0
 65G:\Nexus-2\02React\DAY10\node_modules\@parcel\rust\src\browser.js134080543867914697 0
 65G:\Nexus-2\02React\DAY10\node_modules\@parcel\rust\lib\browser.js134080543867361918 0
 63G:\Nexus-2\02React\DAY10\node_modules\@parcel\rust\lib\index.js134080543868689485 0
@@ -3610,3 +3615,4 @@
 53G:\Nexus-2\02React\DAY10\node_modules\.bin\semver.cmd134080543894864297 0
 65G:\Nexus-2\02React\DAY10\node_modules\.bin\update-browserslist-db134080543894878608 0
 69G:\Nexus-2\02React\DAY10\node_modules\.bin\update-browserslist-db.ps1134080543894878608 0
+47G:\Nexus-2\02React\DAY10\dist\DAY10.1fcc916e.js134080561283067942 0
