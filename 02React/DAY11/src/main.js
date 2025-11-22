@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useCallback, useEffect } from "react";
 import ReactDOM from "react-dom/client"
 import Increment from "./Increment"
- 
+import Decrement from "./Decrement"
 
 function App(){
 
@@ -11,7 +11,7 @@ function App(){
     <>
     <h1>Hello Coder Army</h1>
     <Increment counts = {count} setCounts={setCount}/>
-     
+    <Decrement counts = {count} setCounts={setCount}/>
     </>
   )
 }

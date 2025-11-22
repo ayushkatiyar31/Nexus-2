@@ -1,5 +1,5 @@
 import { useState } from "react";
- 
+import Decrement from "./Decrement"
 
 export default function Increment({counts,setCounts}){
 

@@ -207,7 +207,7 @@
       });
     }
   }
-})({"iUuJv":[function(require,module,exports,__globalThis) {
+})({"1SKAT":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -215,7 +215,7 @@ var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "47f455d51fcc916e";
+module.bundle.HMR_BUNDLE_ID = "866179ca552b6f6e";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -713,12 +713,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"fILKw":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$9dcd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$9dcd.init();
+},{}],"4a2rT":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$ca57 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$ca57.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9dcd.prelude(module);
+$parcel$ReactRefreshHelpers$ca57.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -727,48 +727,73 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _increment = require("./Increment");
-var _incrementDefault = parcelHelpers.interopDefault(_increment);
+var _second = require("./second");
+var _secondDefault = parcelHelpers.interopDefault(_second);
+var _global = require("./Global");
+var _globalDefault = parcelHelpers.interopDefault(_global);
+var _fifth = require("./fifth");
+var _fifthDefault = parcelHelpers.interopDefault(_fifth);
 var _s = $RefreshSig$();
 function App() {
     _s();
-    const [count, setCount] = (0, _react.useState)(0);
+    const [count, setCount] = (0, _react.useState)(10);
+    console.log((0, _globalDefault.default));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "Hello Coder Army"
-            }, void 0, false, {
-                fileName: "src/main.js",
-                lineNumber: 12,
-                columnNumber: 5
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fifthDefault.default), {}, void 0, false, {
+                fileName: "first.js",
+                lineNumber: 16,
+                columnNumber: 4
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _incrementDefault.default), {
-                counts: count,
-                setCounts: setCount
-            }, void 0, false, {
-                fileName: "src/main.js",
-                lineNumber: 13,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _globalDefault.default).Provider, {
+                value: {
+                    count,
+                    setCount
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: [
+                            "Hello Coder Army ",
+                            count
+                        ]
+                    }, void 0, true, {
+                        fileName: "first.js",
+                        lineNumber: 18,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _secondDefault.default), {}, void 0, false, {
+                        fileName: "first.js",
+                        lineNumber: 19,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "first.js",
+                lineNumber: 17,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true);
 }
-_s(App, "RpyMek13f3iNeQO0Gs9DEYmHKoY=");
+_s(App, "lOEYgQZI/6D4QB36FFzU5qckTeU=");
 _c = App;
+// First create a Create Context
+// Provid data ko uske andar: Descendent
+// Consume the context
 (0, _clientDefault.default).createRoot(document.getElementById('root')).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
-    fileName: "src/main.js",
-    lineNumber: 23,
+    fileName: "first.js",
+    lineNumber: 34,
     columnNumber: 61
 }, undefined));
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$9dcd.postlude(module);
+  $parcel$ReactRefreshHelpers$ca57.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./Increment":"kgUFA","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./second":"24sxX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Global":"5de7y","./fifth":"kjWu7"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -17422,53 +17447,105 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"kgUFA":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$c706 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$c706.init();
+},{"6f0162e9ab224cd4":"jMk1U"}],"24sxX":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c474 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c474.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c706.prelude(module);
+$parcel$ReactRefreshHelpers$c474.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Increment);
+parcelHelpers.export(exports, "default", ()=>Second);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _third = require("./Third");
+var _thirdDefault = parcelHelpers.interopDefault(_third);
+var _global = require("./Global");
+var _globalDefault = parcelHelpers.interopDefault(_global);
 var _react = require("react");
-function Increment({ counts, setCounts }) {
+function Second() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: [
-                    "Child Counter is ",
-                    counts
-                ]
-            }, void 0, true, {
-                fileName: "src/Increment.js",
-                lineNumber: 10,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>setCounts(counts + 1),
-                children: "Increment"
+                children: "Kaise hai aap sab log"
             }, void 0, false, {
-                fileName: "src/Increment.js",
+                fileName: "second.js",
+                lineNumber: 10,
+                columnNumber: 10
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _thirdDefault.default), {}, void 0, false, {
+                fileName: "second.js",
                 lineNumber: 11,
-                columnNumber: 9
+                columnNumber: 10
             }, this)
         ]
     }, void 0, true);
 }
-_c = Increment;
+_c = Second;
 var _c;
-$RefreshReg$(_c, "Increment");
+$RefreshReg$(_c, "Second");
 
-  $parcel$ReactRefreshHelpers$c706.postlude(module);
+  $parcel$ReactRefreshHelpers$c474.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./Third":"bfgiM","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Global":"5de7y","react":"jMk1U"}],"bfgiM":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$1548 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$1548.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1548.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Third);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _global = require("./Global");
+var _globalDefault = parcelHelpers.interopDefault(_global);
+var _react = require("react");
+var _s = $RefreshSig$();
+function Third() {
+    _s();
+    // const data = useContext(GlobalContext);
+    // console.log(GlobalContext);
+    const { count, setCount } = (0, _react.useContext)((0, _globalDefault.default));
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: [
+                    "I am printing ",
+                    count
+                ]
+            }, void 0, true, {
+                fileName: "Third.js",
+                lineNumber: 13,
+                columnNumber: 10
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: ()=>setCount(count + 5),
+                children: "Increment"
+            }, void 0, false, {
+                fileName: "Third.js",
+                lineNumber: 14,
+                columnNumber: 10
+            }, this)
+        ]
+    }, void 0, true);
+}
+_s(Third, "nV6XUXjkIUar/fq+tvkul6RpnJY=");
+_c = Third;
+var _c;
+$RefreshReg$(_c, "Third");
+
+  $parcel$ReactRefreshHelpers$1548.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Global":"5de7y","react":"jMk1U"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -19776,6 +19853,61 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["iUuJv","fILKw"], "fILKw", "parcelRequiref125", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"5de7y":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$a8d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$a8d1.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a8d1.prelude(module);
 
-//# sourceMappingURL=DAY11.1fcc916e.js.map
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+const GlobalContext = /*#__PURE__*/ (0, _react.createContext)("Ayush");
+exports.default = GlobalContext;
+
+  $parcel$ReactRefreshHelpers$a8d1.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kjWu7":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6682 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$6682.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6682.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Fifth);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _global = require("./Global");
+var _globalDefault = parcelHelpers.interopDefault(_global);
+var _react = require("react");
+var _s = $RefreshSig$();
+function Fifth() {
+    _s();
+    const data = (0, _react.useContext)((0, _globalDefault.default));
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            "Mein hu Don ",
+            data
+        ]
+    }, void 0, true);
+}
+_s(Fifth, "QDbvtl2XjZhCafbmMBOV/hNJip4=");
+_c = Fifth;
+var _c;
+$RefreshReg$(_c, "Fifth");
+
+  $parcel$ReactRefreshHelpers$6682.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./Global":"5de7y","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["1SKAT","4a2rT"], "4a2rT", "parcelRequiref125", {}, null, null, "http://localhost:1234")
+
+//# sourceMappingURL=DAY11.552b6f6e.js.map
