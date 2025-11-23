@@ -27333,7 +27333,35 @@ $RefreshReg$(_c, "Hello");
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jBAi7":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6f8b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$6f8b.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6f8b.prelude(module);
 
-},{}]},["gOhZl","7pnYI"], "7pnYI", "parcelRequireb60f", {}, null, null, "http://localhost:1234")
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Hi);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Hi() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "I am Hi"
+    }, void 0, false, {
+        fileName: "src/Hi.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, this);
+}
+_c = Hi;
+var _c;
+$RefreshReg$(_c, "Hi");
+
+  $parcel$ReactRefreshHelpers$6f8b.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["gOhZl","7pnYI"], "7pnYI", "parcelRequireb60f", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=DAY12.70db6bdf.js.map
