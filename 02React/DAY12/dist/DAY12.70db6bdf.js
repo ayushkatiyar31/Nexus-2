@@ -27264,8 +27264,36 @@ function persistAppliedTransitions(_window, transitions) {
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"bdJUG":[function(require,module,exports,__globalThis) {
 
 },{}],"9IoyF":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$8030 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$8030.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8030.prelude(module);
 
-},{}],"jBAi7":[function(require,module,exports,__globalThis) {
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Hello);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Hello() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "I am Hello"
+    }, void 0, false, {
+        fileName: "src/Hello.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, this);
+}
+_c = Hello;
+var _c;
+$RefreshReg$(_c, "Hello");
+
+  $parcel$ReactRefreshHelpers$8030.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jBAi7":[function(require,module,exports,__globalThis) {
 
 },{}]},["gOhZl","7pnYI"], "7pnYI", "parcelRequireb60f", {}, null, null, "http://localhost:1234")
 
