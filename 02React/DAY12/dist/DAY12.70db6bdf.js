@@ -27262,8 +27262,47 @@ function persistAppliedTransitions(_window, transitions) {
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"bdJUG":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$0f9b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$0f9b.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0f9b.prelude(module);
 
-},{}],"9IoyF":[function(require,module,exports,__globalThis) {
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Zero);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Zero() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Welcome to Details Page"
+            }, void 0, false, {
+                fileName: "src/Zero.js",
+                lineNumber: 5,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "I am Zero"
+            }, void 0, false, {
+                fileName: "src/Zero.js",
+                lineNumber: 6,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true);
+}
+_c = Zero;
+var _c;
+$RefreshReg$(_c, "Zero");
+
+  $parcel$ReactRefreshHelpers$0f9b.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"9IoyF":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$8030 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$8030.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
