@@ -19923,8 +19923,36 @@ $RefreshReg$(_c, "Contact");
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7Hroo":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c3a5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c3a5.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c3a5.prelude(module);
 
-},{}],"1ZzTt":[function(require,module,exports,__globalThis) {
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>DashBoard);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function DashBoard() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Welcome to Our DashBoard"
+    }, void 0, false, {
+        fileName: "src/DashBoard.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, this);
+}
+_c = DashBoard;
+var _c;
+$RefreshReg$(_c, "DashBoard");
+
+  $parcel$ReactRefreshHelpers$c3a5.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1ZzTt":[function(require,module,exports,__globalThis) {
 
 },{}],"bdJUG":[function(require,module,exports,__globalThis) {
 
