@@ -17555,20 +17555,36 @@ module.exports = require("b0f0e6b9e8349dac");
 })();
 
 },{"6f0162e9ab224cd4":"jMk1U"}],"dpD4z":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$5e50 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$5e50.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5e50.prelude(module);
 
-},{}],"1LHg8":[function(require,module,exports,__globalThis) {
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Home);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Home() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Welcome to Home Page"
+    }, void 0, false, {
+        fileName: "src/Home.js",
+        lineNumber: 5,
+        columnNumber: 9
+    }, this);
+}
+_c = Home;
+var _c;
+$RefreshReg$(_c, "Home");
 
-},{}],"7Hroo":[function(require,module,exports,__globalThis) {
-
-},{}],"1ZzTt":[function(require,module,exports,__globalThis) {
-
-},{}],"bdJUG":[function(require,module,exports,__globalThis) {
-
-},{}],"9IoyF":[function(require,module,exports,__globalThis) {
-
-},{}],"jBAi7":[function(require,module,exports,__globalThis) {
-
-},{}],"jnFvT":[function(require,module,exports,__globalThis) {
+  $parcel$ReactRefreshHelpers$5e50.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -19876,7 +19892,19 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"61z4w":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1LHg8":[function(require,module,exports,__globalThis) {
+
+},{}],"7Hroo":[function(require,module,exports,__globalThis) {
+
+},{}],"1ZzTt":[function(require,module,exports,__globalThis) {
+
+},{}],"bdJUG":[function(require,module,exports,__globalThis) {
+
+},{}],"9IoyF":[function(require,module,exports,__globalThis) {
+
+},{}],"jBAi7":[function(require,module,exports,__globalThis) {
+
+},{}],"61z4w":[function(require,module,exports,__globalThis) {
 /**
  * React Router DOM v6.30.2
  *
