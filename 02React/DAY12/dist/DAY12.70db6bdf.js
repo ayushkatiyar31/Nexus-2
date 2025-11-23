@@ -19953,14 +19953,71 @@ $RefreshReg$(_c, "DashBoard");
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1ZzTt":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$513a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$513a.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$513a.prelude(module);
 
-},{}],"bdJUG":[function(require,module,exports,__globalThis) {
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Details);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRouterDom = require("react-router-dom");
+function Details() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/Details",
+                        children: "Details"
+                    }, void 0, false, {
+                        fileName: "src/Details.js",
+                        lineNumber: 7,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "Hello",
+                        children: "Hello"
+                    }, void 0, false, {
+                        fileName: "src/Details.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "Hi",
+                        children: "Hi"
+                    }, void 0, false, {
+                        fileName: "src/Details.js",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Details.js",
+                lineNumber: 6,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+                fileName: "src/Details.js",
+                lineNumber: 12,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true);
+}
+_c = Details;
+var _c;
+$RefreshReg$(_c, "Details");
 
-},{}],"9IoyF":[function(require,module,exports,__globalThis) {
-
-},{}],"jBAi7":[function(require,module,exports,__globalThis) {
-
-},{}],"61z4w":[function(require,module,exports,__globalThis) {
+  $parcel$ReactRefreshHelpers$513a.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"61z4w","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"61z4w":[function(require,module,exports,__globalThis) {
 /**
  * React Router DOM v6.30.2
  *
@@ -27204,6 +27261,12 @@ function persistAppliedTransitions(_window, transitions) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["gOhZl","7pnYI"], "7pnYI", "parcelRequireb60f", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"bdJUG":[function(require,module,exports,__globalThis) {
+
+},{}],"9IoyF":[function(require,module,exports,__globalThis) {
+
+},{}],"jBAi7":[function(require,module,exports,__globalThis) {
+
+},{}]},["gOhZl","7pnYI"], "7pnYI", "parcelRequireb60f", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=DAY12.70db6bdf.js.map
