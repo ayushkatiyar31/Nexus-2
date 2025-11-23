@@ -8,8 +8,8 @@ import Fifth from "./fifth";
 
 function App(){
 
-  const [count,setCount] = useState(10);
-  console.log(GlobalContext);
+  const [count,setCount] = useState(0);
+  //console.log(GlobalContext);
 
   return (
     <>

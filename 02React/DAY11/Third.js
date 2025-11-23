@@ -11,7 +11,7 @@ export default function Third(){
     return (
         <>
          <h2>I am printing {count}</h2>
-         <button onClick={()=>setCount(count+5)}>Increment</button>
+         <button onClick={()=>setCount(count+10)}>Increment</button>
         </>
 
     )

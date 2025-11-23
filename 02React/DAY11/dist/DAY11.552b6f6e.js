@@ -736,8 +736,8 @@ var _fifthDefault = parcelHelpers.interopDefault(_fifth);
 var _s = $RefreshSig$();
 function App() {
     _s();
-    const [count, setCount] = (0, _react.useState)(10);
-    console.log((0, _globalDefault.default));
+    const [count, setCount] = (0, _react.useState)(0);
+    //console.log(GlobalContext);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fifthDefault.default), {}, void 0, false, {
@@ -775,7 +775,7 @@ function App() {
         ]
     }, void 0, true);
 }
-_s(App, "lOEYgQZI/6D4QB36FFzU5qckTeU=");
+_s(App, "RpyMek13f3iNeQO0Gs9DEYmHKoY=");
 _c = App;
 // First create a Create Context
 // Provid data ko uske andar: Descendent
@@ -17525,7 +17525,7 @@ function Third() {
                 columnNumber: 10
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>setCount(count + 5),
+                onClick: ()=>setCount(count + 10),
                 children: "Increment"
             }, void 0, false, {
                 fileName: "Third.js",
