@@ -19893,8 +19893,36 @@ function $da9882e673ac146b$var$ErrorOverlay() {
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1LHg8":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$f4e6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$f4e6.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f4e6.prelude(module);
 
-},{}],"7Hroo":[function(require,module,exports,__globalThis) {
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Contact);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Contact() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Welcome to Contact Page"
+    }, void 0, false, {
+        fileName: "src/Contact.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, this);
+}
+_c = Contact;
+var _c;
+$RefreshReg$(_c, "Contact");
+
+  $parcel$ReactRefreshHelpers$f4e6.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7Hroo":[function(require,module,exports,__globalThis) {
 
 },{}],"1ZzTt":[function(require,module,exports,__globalThis) {
 
