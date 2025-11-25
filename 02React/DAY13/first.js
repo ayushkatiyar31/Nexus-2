@@ -33,7 +33,7 @@ function App() {
           <Route path="Hello" element={<Hello />} />
           <Route path="Hi" element={<Hi />} />
         </Route>
-        <Route path="Github" element={<Github></Github>}></Route>
+        <Route path="Github/:name" element={<Github></Github>}></Route>
       </Routes>
 
     </BrowserRouter>
