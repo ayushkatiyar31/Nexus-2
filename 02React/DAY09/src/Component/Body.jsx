@@ -1,29 +1,44 @@
-import { useEffect, useState } from "react";
 import useFetch from "../usefetch";
 
-function Body(){
+function Body() {
+  const { 
+    generateProfile, 
+    numberofProfile, 
+    setnumberofProfile, 
+    Profile 
+  } = useFetch();
 
-      const {generateProfile,numberofProfile,setnumberofProfile,Profile} = useFetch()
-   
+  return (
+    <div className="but">
 
-   return (
-       <div className="but">
-       <input type="text" className="inpu" placeholder="search here" value={numberofProfile} onChange={(e)=>setnumberofProfile(e.target.value)}></input>
-       <button onClick={()=>generateProfile(Number(numberofProfile))}>Search Profile</button>
+      <input 
+        type="number"
+        className="inpu"
+        placeholder="Enter number"
+        value={numberofProfile}
+        onChange={(e) => setnumberofProfile(Number(e.target.value))}
+      />
+
+      <button onClick={() => generateProfile(numberofProfile)}>
+        Search Profile
+      </button>
+
       <div className="profiles">
-       {
-        Profile.map((value)=>{ 
-           return (<div key={value.id} className="cards">
-              <img src={value.avatar_url}></img>
-              <h2>{value.login}</h2>
-              <a href={value.html_url} target="_blank">Profile</a>
-            </div>)
-        })
-       }
-      </div>
-      </div>
-   )
+        {Profile.length === 0 && <h3>No Profiles Loaded</h3>}
 
+        {Profile.map((value) => (
+          <div key={value.id} className="cards">
+            <img src={value.avatar_url} alt="profile" />
+            <h2>{value.login}</h2>
+            <a href={value.html_url} target="_blank">
+              View Profile
+            </a>
+          </div>
+        ))}
+      </div>
+
+    </div>
+  );
 }
 
 export default Body;
