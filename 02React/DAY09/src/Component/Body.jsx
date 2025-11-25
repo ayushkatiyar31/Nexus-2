@@ -1,22 +1,9 @@
 import { useEffect, useState } from "react";
+import useFetch from "../usefetch";
 
 function Body(){
 
-   const [Profile,setProfile] = useState([]);
-   const [numberofProfile,setnumberofProfile] = useState("");
- 
-   async function generateProfile(count){
-      const ran = Math.floor(1+Math.random()*10000);
-      const response = await fetch(`https://api.github.com/users?since=${ran}&per_page=${count}`);
-      const data = await response.json();
-      
-
-      setProfile(data);
-   }
-
-   useEffect(()=>{
-    generateProfile(10);
-   },[]);
+      const {generateProfile,numberofProfile,setnumberofProfile,Profile} = useFetch()
    
 
    return (
