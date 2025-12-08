@@ -11,6 +11,7 @@ export default function Counting(){
     console.log(Decrement());
 
     
+    
     return(
         <>
         <h1>Counter is {count}</h1>
