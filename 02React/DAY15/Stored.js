@@ -8,3 +8,4 @@ const stores = configureStore({
 })
 
 export default stores
+
