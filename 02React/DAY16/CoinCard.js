@@ -35,6 +35,8 @@ const CoinCard = ({ coin }) => {
       <h3 style={titleStyle}>{coin.name}</h3>
       <p style={infoStyle}>Price: ${coin.current_price}</p>
       <p style={infoStyle}>Market Cap Rank: {coin.market_cap_rank}</p>
+      
+       
     </div>
   );
 };
