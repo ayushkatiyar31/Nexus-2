@@ -1,22 +1,14 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
-import Header from "./Components/Header";
- 
-
-
-
-// Header section: Let's build it
+import React from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";          
+import Header from "./Components/Header.js";
 
 function App(){
-    
-    return(
-       <>
-       <Header></Header>
-       
-       </>
-    )
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App></App>);
-
-
+createRoot(document.getElementById("root")).render(<App />);
