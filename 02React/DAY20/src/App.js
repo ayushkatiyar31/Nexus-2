@@ -16,6 +16,7 @@ function App(){
        <Header></Header>
        <FoodOption></FoodOption>
        <GroceryOption></GroceryOption>
+       <DineOption></DineOption>
        </>
     )
 }
