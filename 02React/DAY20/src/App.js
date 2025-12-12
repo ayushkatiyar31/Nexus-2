@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import "./index.css";  
 import FoodOption from "./Components/FoodOption";
 import GroceryOption from "./Components/GroceryOption";
+import DineOption from "./Components/DineOption";
 
 
 
