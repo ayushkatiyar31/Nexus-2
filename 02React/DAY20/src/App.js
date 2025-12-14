@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./Components/Home";
 import "./index.css";
-
 import Restaurant from "./Components/Restaurant";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
