@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./Components/Header";
-import "./index.css";  
-import FoodOption from "./Components/FoodOption";
-import GroceryOption from "./Components/GroceryOption";
-import DineOption from "./Components/DineOption";
+import Home from "./Components/Home";
+import "./index.css";
+
+import Restaurant from "./Components/Restaurant";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
  
 
 
@@ -15,15 +16,22 @@ function App(){
     
     return(
        <>
-       <Header></Header>
-       <FoodOption></FoodOption>
-       <GroceryOption></GroceryOption>
-       <DineOption></DineOption>
-        
+       <BrowserRouter>
+       <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/restaurant" element={<Restaurant></Restaurant>}></Route>
+       
+       </Routes>
+       </BrowserRouter>
+      
        </>
     )
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App></App>);
+
+
+
+// Proxy server "https://cors-anywhere.herokuapp.com/"; 
 
 
