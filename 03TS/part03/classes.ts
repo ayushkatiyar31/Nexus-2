@@ -33,6 +33,7 @@ class Customer {
   }
 }
 
+
 const P1 = new Customer("Deepak", 20, 420);
 
 console.log(P1.name);
